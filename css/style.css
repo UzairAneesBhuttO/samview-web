@@ -1,0 +1,144 @@
+
+.custom-container {
+    min-height: 400px; /* Set your desired height in pixels or any other unit */
+  }
+
+  .bg-purple {
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(192,153,223,0.9724264705882353) 100%);
+  }
+  .col-6:hover {
+    animation: zoomIn 0.8s ease-in-out;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+  .bg-cyan {
+    background: rgb(198,198,223);
+background: linear-gradient(90deg, rgba(198,198,223,1) 0%, rgba(0,212,255,1) 0%, rgba(129,183,207,1) 100%, rgba(26,13,235,1) 100%);
+  }
+
+  .bg-brown {
+    background: rgb(223,168,153);
+background: linear-gradient(90deg, rgba(223,168,153,1) 8%, rgba(237,97,97,1) 62%);
+  }
+
+  .bg-skyblue {
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(89,81,226,1) 51%, rgba(198,198,223,1) 100%);
+  }
+
+  .cust-container{
+  min-height: 750px;    
+  }
+  
+.cus-container{
+  min-height: 750px;
+}
+
+.cu-container{
+min-height: 750px;
+}
+
+  .card-title{
+  text-align: center;
+  }
+
+  .card-text{
+  text-align: center;
+  }
+
+  .center-button {
+    margin-top: 16pc;
+    background-color: #000; /* Black background color */
+    color: #fff;
+    height: 36px;
+    width: 7pc;
+    border-radius: 8px;
+    margin-left: 39pc; /* White text color */
+  }
+
+
+.card-container {
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  top: 200px;
+  transform: translate(90%); /* Adjust for centering */
+  bottom: 10px;
+  left: 10px;
+  display: none;
+}
+
+.card-container:hover .icons {
+  display: flex;
+}
+
+.icons i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+.icons2 {
+  position: absolute;
+  top: 250px;
+  transform: translate(120%); /* Adjust for centering */
+  bottom: 10px;
+  left: 10px;
+  display: none;
+}
+
+.card-container:hover .icons2 {
+  display: flex;
+}
+
+.icons2 i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+c-container{
+  min-height: 500px;
+  }
+
+.card>i{
+text-align: center;
+margin-top: 1pc;
+}
+.maincont{
+display: flex;
+justify-content: space-between;
+}
+
+.containerf{
+margin-top: -280px;
+margin-left: 40pc;
+width: 460px;
+justify-content: space-between;
+}
+
+.phone{
+display: flex;
+}
+
+.email{
+display: flex;
+}
+
+.smlinks{
+display: flex;
+justify-content: space-evenly;
+}
+
+
+
